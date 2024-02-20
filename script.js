@@ -13,8 +13,8 @@ function threeSum(arr, target) {
             {
                  
                 // Update the closestSum
-                if (Math.abs(x - closestSum) > 
-                    Math.abs(x - (arr[i] + arr[j] + arr[k])))
+                if (Math.abs(target - closestSum) > 
+                    Math.abs(target - (arr[i] + arr[j] + arr[k])))
                     closestSum = (arr[i] + arr[j] + arr[k]);
             } 
         }
